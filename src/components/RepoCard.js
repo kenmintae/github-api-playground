@@ -62,7 +62,7 @@ const RepoList = props => {
           }
         />
         <CardContent>
-          <Typography variant="body1" nowrap>
+          <Typography variant="body1" noWrap>
             {repo.description
               ? repo.description
               : `This project has no description`}

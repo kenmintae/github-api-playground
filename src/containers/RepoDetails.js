@@ -27,10 +27,6 @@ class RepoDetails extends React.PureComponent {
     }
     return (
       <>
-        <Header {...info} />
-        <Wrapper>
-          <Divider />
-        </Wrapper>
         <Wrapper>
           <Typography variant="h5" gutterbottom>
             {repo}/ Commits History
